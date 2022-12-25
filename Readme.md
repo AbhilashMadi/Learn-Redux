@@ -66,3 +66,25 @@ function reducer(state, action) {
 <details><summary>In this example:</summary>In this example, the reducer function has a switch statement that checks the type property of the action. Depending on the type of the action, the reducer returns a new state object with an updated count property. If the action type is INCREMENT, the count is incremented by 1. If the action type is DECREMENT, the count is decremented by 1. If the action type is not recognized, the reducer returns the current state.
 
 Reducers are important in Redux because they are the only way to update the state of your application. They are also pure functions, which means they do not have any side effects and always return the same output for a given input. This helps to ensure that the state of your application is predictable and easy to test.</details>
+
+<hr/>
+
+### [6]
+
+### [7]
+
+### [8]
+
+### [9]
+
+### [10]
+
+### [11]
+
+### [12]
+
+### [13]
+
+### [14]
+
+### [15]
