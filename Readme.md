@@ -75,7 +75,7 @@ In Redux, the state of your entire application is stored in an object tree withi
 
 The state tree is made up of small, simple objects, and each piece of state is contained within its own property on the state tree. 
 
-<details><summery>For example:<summery> if you are building a to-do list app, the state tree might contain a property called "todos" that stores an array of to-do objects, and another property called "visibilityFilter" that stores a string representing the current visibility filter for the to-do list.
+<details><summary>For example:<summary> if you are building a to-do list app, the state tree might contain a property called "todos" that stores an array of to-do objects, and another property called "visibilityFilter" that stores a string representing the current visibility filter for the to-do list.
 
 In Redux, the state of the application can only be modified through a process called dispatchinng an action. An action is a plain JavaScript object that describes the change that needs to be made to the state tree. For example, to add a new to-do to the list, you might dispatch an action with a type of "ADD_TODO" and a payload that includes the text of the new to-do.
 
