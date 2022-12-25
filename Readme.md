@@ -36,8 +36,8 @@ That being said, it's important to choose the right tool for the job. In some ca
 
 > What are the three principles of Redux?
 
-<Details>Single source of truth:<summery></summery>The state of your entire application is stored in a single object, called the "store." This makes it easier to understand the state of your application and debug problems.</Details>
+<details><summary>Single source of truth:</summary>The state of your entire application is stored in a single object, called the "store." This makes it easier to understand the state of your application and debug problems.</details>
 
-State is read-only: The only way to change the state of your application is to dispatch an action, an object that describes a change to the state. This makes it easier to understand how the state of your application is being modified and allows you to implement logic to handle different types of actions.
+<details><summary>State is read-only</summary>The only way to change the state of your application is to dispatch an action, an object that describes a change to the state. This makes it easier to understand how the state of your application is being modified and allows you to implement logic to handle different types of actions.</details>
 
-Changes are made with pure functions: In Redux, you define "reducers" to handle the logic for updating the state based on an action. Reducers are pure functions, which means they do not have side effects and always return the same output for a given input. This helps to ensure that the state of your application is predictable and easy to test.
+<details><summary>Changes are made with pure functions</summary> In Redux, you define "reducers" to handle the logic for updating the state based on an action. Reducers are pure functions, which means they do not have side effects and always return the same output for a given input. This helps to ensure that the state of your application is predictable and easy to test.<details>
