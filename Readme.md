@@ -1,4 +1,4 @@
->What is Redux?
+[1] #####What is Redux?
 
 Redux is a predictable state management library for JavaScript applications. It can be used with any front-end JavaScript framework or library, such as React, Angular, or Vue.js.
 
@@ -48,7 +48,7 @@ That being said, it's important to choose the right tool for the job. In some ca
 
 In Redux, a reducer is a function that takes in the current state of an application and an action, and returns a new state. Reducers are the way that you update the state of your application in response to actions.
 
-Here is an example of a simple reducer function:
+<em>Here is an example of a simple reducer function:</em>
 
 ```javascript
 function reducer(state, action) {
