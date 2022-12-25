@@ -41,3 +41,28 @@ That being said, it's important to choose the right tool for the job. In some ca
 <details><summary>State is read-only</summary>The only way to change the state of your application is to dispatch an action, an object that describes a change to the state. This makes it easier to understand how the state of your application is being modified and allows you to implement logic to handle different types of actions.</details>
 
 <details><summary>Changes are made with pure functions</summary> In Redux, you define "reducers" to handle the logic for updating the state based on an action. Reducers are pure functions, which means they do not have side effects and always return the same output for a given input. This helps to ensure that the state of your application is predictable and easy to test.</details>
+
+<hr/>
+
+>What is Reducer in Redux?
+
+In Redux, a reducer is a function that takes in the current state of an application and an action, and returns a new state. Reducers are the way that you update the state of your application in response to actions.
+
+Here is an example of a simple reducer function:
+
+```javascript
+function reducer(state, action) {
+  switch (action.type) {
+    case 'INCREMENT':
+      return { count: state.count + 1 };
+    case 'DECREMENT':
+      return { count: state.count - 1 };
+    default:
+      return state;
+  }
+}
+```
+
+<details><summary>In this example:</summary>In this example, the reducer function has a switch statement that checks the type property of the action. Depending on the type of the action, the reducer returns a new state object with an updated count property. If the action type is INCREMENT, the count is incremented by 1. If the action type is DECREMENT, the count is decremented by 1. If the action type is not recognized, the reducer returns the current state.
+
+Reducers are important in Redux because they are the only way to update the state of your application. They are also pure functions, which means they do not have any side effects and always return the same output for a given input. This helps to ensure that the state of your application is predictable and easy to test.</details>
