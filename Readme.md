@@ -31,3 +31,13 @@ Centralized state management: Redux allows you to store all your application's s
 - Community support: Redux is a widely-used library, and as such has a large community of developers who can provide support and resources.
 
 That being said, it's important to choose the right tool for the job. In some cases, using useReducer or useContext may be sufficient for your needs, and using Redux may be unnecessary. It's always a good idea to carefully consider the trade-offs of each approach before making a decision.
+
+<hr/>
+
+> What are the three principles of Redux?
+
+<Details>Single source of truth:<summery></summery>The state of your entire application is stored in a single object, called the "store." This makes it easier to understand the state of your application and debug problems.</Details>
+
+State is read-only: The only way to change the state of your application is to dispatch an action, an object that describes a change to the state. This makes it easier to understand how the state of your application is being modified and allows you to implement logic to handle different types of actions.
+
+Changes are made with pure functions: In Redux, you define "reducers" to handle the logic for updating the state based on an action. Reducers are pure functions, which means they do not have side effects and always return the same output for a given input. This helps to ensure that the state of your application is predictable and easy to test.
