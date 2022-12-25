@@ -24,11 +24,11 @@ However, there are still a few reasons why you might want to consider using Redu
 
 Centralized state management: Redux allows you to store all your application's state in a single, immutable store, which can make it easier to manage complex state, especially in larger applications.
 
-- Predictable state updates: Redux uses a strict unidirectional data flow, which means that state updates only happen in a predictable way. This can make it easier to debug and test your application.
+- <details><summary>Predictable state updates:</summary> Redux uses a strict unidirectional data flow, which means that state updates only happen in a predictable way. This can make it easier to debug and test your application.</details>
 
-- Easy to implement undo/redo: Because all state updates in Redux are stored in an array of previous states, it is easy to implement undo/redo functionality.
+- <details><summary>Easy to implement undo/redo:</summary> Because all state updates in Redux are stored in an array of previous states, it is easy to implement undo/redo functionality.<details>
 
-- Community support: Redux is a widely-used library, and as such has a large community of developers who can provide support and resources.
+- <details><summary>Community support:<summary> Redux is a widely-used library, and as such has a large community of developers who can provide support and resources.<details>
 
 That being said, it's important to choose the right tool for the job. In some cases, using useReducer or useContext may be sufficient for your needs, and using Redux may be unnecessary. It's always a good idea to carefully consider the trade-offs of each approach before making a decision.
 
