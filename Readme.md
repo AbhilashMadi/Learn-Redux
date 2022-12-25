@@ -44,7 +44,7 @@ That being said, it's important to choose the right tool for the job. In some ca
 
 <hr/>
 
->What is Reducer in Redux?
+>What is `Reducer` in Redux?
 
 In Redux, a reducer is a function that takes in the current state of an application and an action, and returns a new state. Reducers are the way that you update the state of your application in response to actions.
 
