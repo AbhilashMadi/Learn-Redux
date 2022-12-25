@@ -8,7 +8,7 @@ Redux is often used in conjunction with React because it works well with the dec
 
 <hr/>
 
->How Redux Work?
+### [2]How Redux Work?
 
 The core idea behind Redux is that the state of an application should be managed in a single, immutable store. This store can only be modified through the use of specific actions, which are dispatched to the store and processed by reducer functions. These reducer functions update the state of the store in a predictable, deterministic way, based on the type of action that was dispatched.
 
@@ -16,7 +16,7 @@ The core idea behind Redux is that the state of an application should be managed
 
 <hr/>
 
->We can use useContext and useReducer in React instead of Redux!
+### [3]We can use useContext and useReducer in React instead of Redux!
 
 You are correct that both useReducer and useContext can be used as alternatives to Redux in some cases. useReducer is a hook that allows you to manage state in a React component, and useContext allows you to pass data down the component tree without the need for props drilling.
 
@@ -34,7 +34,7 @@ That being said, it's important to choose the right tool for the job. In some ca
 
 <hr/>
 
-> What are the three principles of Redux?
+### [4] What are the three principles of Redux?
 
 <details><summary>Single source of truth:</summary>The state of your entire application is stored in a single object, called the "store." This makes it easier to understand the state of your application and debug problems.</details>
 
