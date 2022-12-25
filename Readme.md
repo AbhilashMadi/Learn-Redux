@@ -83,7 +83,28 @@ Redux provides a way to manage the state of your application in a predictable, t
 
 <hr/>
 
-### [7]
+### [7] What is state in Redux?
+In Redux, an action is a plain JavaScript object that represents an intention to change the state of the application. Actions are the only way to trigger a state change in a Redux application, and they are the result of user input, network responses, or application logic.
+
+<details><summary>More About State:</summary>Actions are very simple objects that must have a type property to describe the type of action being performed. They may also include a payload of data that provides additional information about the action. For example, an action to add a new to-do item to a list might have a type of "ADD_TODO" and a payload that includes the text of the to-do item.
+
+Here is an example of a simple action object:
+
+```javascript
+{
+  type: 'ADD_TODO',
+  payload: {
+    text: 'Write a Redux tutorial'
+  }
+}
+```
+In a Redux application, actions are dispatched using the store's dispatch method. When an action is dispatched, it is passed to the root reducer function, which then determines how the state should be updated based on the type of action that was dispatched.
+
+For example, if the action above were dispatched, the reducer function might update the state tree by adding a new to-do item to the list of to-dos.</details>
+
+
+
+
 
 ### [8]
 
