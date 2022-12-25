@@ -10,5 +10,5 @@ Redux is often used in conjunction with React because it works well with the dec
 
 The core idea behind Redux is that the state of an application should be managed in a single, immutable store. This store can only be modified through the use of specific actions, which are dispatched to the store and processed by reducer functions. These reducer functions update the state of the store in a predictable, deterministic way, based on the type of action that was dispatched.
 
-![state change](https://freeimage.host/i/HIMHU7I)
+![state change]("https://github.com/AbhilashMadi/Learn-Redux/blob/main/assets/working.png");
 
