@@ -28,7 +28,7 @@ Centralized state management: Redux allows you to store all your application's s
 
 - <details><summary>Easy to implement undo/redo:</summary> Because all state updates in Redux are stored in an array of previous states, it is easy to implement undo/redo functionality.<details>
 
-- <details><summary>Community support:<summary> Redux is a widely-used library, and as such has a large community of developers who can provide support and resources.<details>
+- <details><summary>Community support:</summary> Redux is a widely-used library, and as such has a large community of developers who can provide support and resources.</details>
 
 That being said, it's important to choose the right tool for the job. In some cases, using useReducer or useContext may be sufficient for your needs, and using Redux may be unnecessary. It's always a good idea to carefully consider the trade-offs of each approach before making a decision.
 
