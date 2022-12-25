@@ -26,7 +26,7 @@ Centralized state management: Redux allows you to store all your application's s
 
 - <details><summary>Predictable state updates:</summary> Redux uses a strict unidirectional data flow, which means that state updates only happen in a predictable way. This can make it easier to debug and test your application.</details>
 
-- <details><summary>Easy to implement undo/redo:</summary> Because all state updates in Redux are stored in an array of previous states, it is easy to implement undo/redo functionality.<details>
+- <details><summary>Easy to implement undo/redo:</summary> Because all state updates in Redux are stored in an array of previous states, it is easy to implement undo/redo functionality.</details>
 
 - <details><summary>Community support:</summary> Redux is a widely-used library, and as such has a large community of developers who can provide support and resources.</details>
 
@@ -44,7 +44,7 @@ That being said, it's important to choose the right tool for the job. In some ca
 
 <hr/>
 
->What is `Reducer` in Redux?
+### [5] What is `Reducer` in Redux?
 
 In Redux, a reducer is a function that takes in the current state of an application and an action, and returns a new state. Reducers are the way that you update the state of your application in response to actions.
 
