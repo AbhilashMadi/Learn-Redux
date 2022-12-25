@@ -1,4 +1,4 @@
-[1] **What is Redux?
+#####[1]What is Redux?
 
 Redux is a predictable state management library for JavaScript applications. It can be used with any front-end JavaScript framework or library, such as React, Angular, or Vue.js.
 
